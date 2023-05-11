@@ -13,10 +13,10 @@ Need help uncovering and fixing potential security vulnerabilities in your Node.
 Node.js apps can be susceptible to vulnerability if they lack security mechanisms capable enough in todays world. Listed below are some common types of attacks your application faces, and what you should do to safeguard them:
 
 - Brute Force Attacks: Hackers may attempt Brute Force Attacks on your app by guessing user passwords multiple times;
-- Cross site scripting (XSS): is a threat where attackers inject malicious scripts into web pages that unknowingly affect users accessing them. Considering this its imperative to validate user inputs and escape special characters to prevent the attack. 
-- Distributed Denial of Service (DDoS): is another type of cyberattack that floods servers with requests leading to denial of further service. Developers should consider implementing load balancers and rate limiting techniques as standard preventative measures against DDoS. 
-- NoSQL Query Injection is a targeted injection technique that malicious attackers can deploy to modify unauthorized data with unwanted influence in the database. Developers must secure input data validation levels for protection against this kind of attack. 
-- Cross-site request forgery (CSRF): Safekeeping against cross-site request forgery (CSRF) necessitates employing safeguards such as parameterized queries and careful vetting of accepted user input. Perpetrators using CSRF schemes lure users into unwittingly executing unintended actions in web applications through manipulative means. Preventative strategies include establishing confirmed CSRF tokens and thoroughly evaluating incoming data inputs to minimize vulnerabilities to malicious incidents.
+- Cross site scripting (XSS): is a threat where attackers inject malicious scripts into web pages that unknowingly affect users accessing them.
+- Distributed Denial of Service (DDoS): is another type of cyberattack that floods servers with requests leading to denial of further service. 
+- NoSQL Query Injection is a targeted injection technique using certain queries that malicious attackers can deploy to modify unauthorized data with unwanted influence in the database. 
+- Cross-site request forgery (CSRF): Safekeeping against cross-site request forgery (CSRF) necessitates employing safeguards such as parameterized queries and careful vetting of accepted user input. Perpetrators using CSRF schemes lure users into unwittingly executing unintended actions in web applications through manipulative means.
 
 
 # Solutions
